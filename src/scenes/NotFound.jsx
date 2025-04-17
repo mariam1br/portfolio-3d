@@ -8,12 +8,7 @@ const NotFound = () => {
         <Experience />
       </div>
       <div className="section container">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="not-found"
-        >
+        <div className="not-found">
           <h1 className="purple-gradient" style={{ fontSize: "6rem", marginBottom: "1rem" }}>
             404
           </h1>
@@ -26,7 +21,7 @@ const NotFound = () => {
           <Link to="/">
             <button className="btn">Go Home</button>
           </Link>
-        </motion.div>
+        </div>
       </div>
     </>
   );

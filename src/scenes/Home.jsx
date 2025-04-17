@@ -8,54 +8,33 @@ const Home = () => {
         <Experience />
       </div>
       <div className="section container">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="home-content"
-        >
+        <div className="home-content">
           <h1 className="purple-gradient" style={{ fontSize: "4rem", marginBottom: "1rem" }}>
             Mariam Ibrahim
           </h1>
-          <motion.h2 
+          <h2 
             className="green-gradient" 
             style={{ fontSize: "2.5rem", marginBottom: "2rem" }}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
           >
             Software Engineer
-          </motion.h2>
-          <motion.p 
+          </h2>
+          <p 
             style={{ maxWidth: "600px", marginBottom: "2.5rem", fontSize: "1.2rem", lineHeight: 1.6 }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
           >
-            I'm a software engineering student at the University of Calgary, passionate about building
+            Hi! I'm a software engineering student at the University of Calgary, passionate about building
             creative and innovative applications with modern web technologies, 3D graphics, and user-centric design.
-          </motion.p>
+          </p>
           
-          <motion.div
-            className="cta-buttons"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-          >
+          <div className="cta-buttons">
             <Link to="/projects">
               <button className="btn">View My Projects</button>
             </Link>
             <Link to="/contact">
               <button className="btn btn-outline" style={{ marginLeft: "1rem" }}>Get In Touch</button>
             </Link>
-          </motion.div>
+          </div>
           
-          <motion.div 
-            className="tech-stack"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-          >
+          <div className="tech-stack">
             <h3>Tech Stack</h3>
             <div className="tech-icons">
               <span>React</span>
@@ -64,9 +43,17 @@ const Home = () => {
               <span>Python</span>
               <span>Java</span>
               <span>C++</span>
+              <span>Flask</span>
+              <span>Node.js</span>
+              <span>MySQL</span>
+              <span>Git</span>
+              <span>Express</span>
+              <span>HTML/CSS</span>
+              <span>SQL</span>
+              <span>Arduino</span>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </>
   );
