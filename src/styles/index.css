@@ -86,7 +86,6 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
   
-  /* Project styles with better visibility */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -295,7 +294,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   }
   
-  /* Override root styles */
   #root {
     max-width: none;
     margin: 0;

@@ -14,7 +14,7 @@
   .loader-content {
     text-align: center;
     width: 100%;
-    max-width: 500px; /* Increase this to match your name width */
+    max-width: 500px; 
     padding: 0 1.5rem;
   }
   
@@ -24,7 +24,7 @@
   }
   
   .progress-bar-container {
-    width: 100%; /* Make it full width of the container */
+    width: 100%; 
     height: 10px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
