@@ -33,7 +33,7 @@
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
-    color: var(--text);
+    color: #37685d;
   }
   
   .navbar-item:hover {

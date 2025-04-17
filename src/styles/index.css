@@ -243,7 +243,7 @@
   }
   
   .contact-method a {
-    color: var(--text);
+    color: #36675b;
     transition: color 0.3s ease;
     font-size: 0.95rem;
   }
